@@ -1,0 +1,32 @@
+{
+  "name": "mp4-to-m3u8-sample",
+  "version": "1.0.0",
+  "description": "Upload mp4 and view via hls",
+  "author": "FTB_lag",
+  "license": "MIT",
+  "keywords": [
+    "mp4",
+    "convert",
+    "m3u8",
+    "hls"
+  ],
+  "scripts": {
+    "start": "ts-node src/main.ts",
+    "start:dev": "nodemon"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3",
+    "fluent-ffmpeg": "^2.1.2",
+    "multer": "^1.4.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/fluent-ffmpeg": "^2.1.20",
+    "@types/multer": "^1.4.7",
+    "@types/node": "^17.0.21",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2"
+  }
+}
