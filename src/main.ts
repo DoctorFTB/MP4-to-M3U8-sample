@@ -70,7 +70,7 @@ async function bootstrap() {
       return res.status(400).end();
     }
 
-    const file = `${upload_folder}/${match[1]}.${match[1]}`;
+    const file = `${upload_folder}/${match[1]}.${match[2]}`;
 
     // check access and existing
     const hasAccess = new Promise<boolean>((resolve) => {
